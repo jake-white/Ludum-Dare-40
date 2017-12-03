@@ -8,7 +8,7 @@ public class GuardScript : MonoBehaviour {
 	public GameObject viewCircle;
 	private int viewRadius = 30;
 	private bool sighted = true;
-	private bool target = false;
+	private bool target = false, soundTarget = false;
 	// Use this for initialization
 	void Start () {
 		customStart();
@@ -28,10 +28,11 @@ public class GuardScript : MonoBehaviour {
 		int layerMask = 1 << 0; //only targeting layer 0
 		RaycastHit2D outOfSight = Physics2D.Linecast(transform.position, player.transform.position, layerMask);
 		bool playerInSight = outOfSight.collider == player.GetComponent<Collider2D>();
-		if(target && playerInSight) {
+		if((target && playerInSight) || soundTarget) {
 			GetComponent<AudioSource>().Play();
 			state.catchPlayer();
 			loseTarget();
+			loseSoundTarget();
 		} 
 		else {
 
@@ -44,5 +45,13 @@ public class GuardScript : MonoBehaviour {
 
 	public void loseTarget() {
 		target = false;
+	}
+
+	public void setSoundTarget() {
+		soundTarget = true;
+	}
+
+	public void loseSoundTarget() {
+		soundTarget = false;
 	}
 }

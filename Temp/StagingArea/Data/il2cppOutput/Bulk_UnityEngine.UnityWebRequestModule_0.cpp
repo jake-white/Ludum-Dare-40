@@ -58,8 +58,8 @@ extern const uint32_t WebRequestUtils__cctor_m4149625601_MetadataUsageId;
 
 
 
-#ifndef U3CMODULEU3E_T3783534225_H
-#define U3CMODULEU3E_T3783534225_H
+#ifndef U3CMODULEU3E_T3783534229_H
+#define U3CMODULEU3E_T3783534229_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -67,7 +67,7 @@ extern const uint32_t WebRequestUtils__cctor_m4149625601_MetadataUsageId;
 #endif
 
 // <Module>
-struct  U3CModuleU3E_t3783534225 
+struct  U3CModuleU3E_t3783534229 
 {
 public:
 
@@ -77,7 +77,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CMODULEU3E_T3783534225_H
+#endif // U3CMODULEU3E_T3783534229_H
 #ifndef RUNTIMEOBJECT_H
 #define RUNTIMEOBJECT_H
 #ifdef __clang__

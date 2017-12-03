@@ -171,8 +171,8 @@ struct SingleU5BU5D_t577127397;
 struct StringU5BU5D_t1642385972;
 
 
-#ifndef U3CMODULEU3E_T3783534221_H
-#define U3CMODULEU3E_T3783534221_H
+#ifndef U3CMODULEU3E_T3783534222_H
+#define U3CMODULEU3E_T3783534222_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -180,7 +180,7 @@ struct StringU5BU5D_t1642385972;
 #endif
 
 // <Module>
-struct  U3CModuleU3E_t3783534221 
+struct  U3CModuleU3E_t3783534222 
 {
 public:
 
@@ -190,7 +190,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CMODULEU3E_T3783534221_H
+#endif // U3CMODULEU3E_T3783534222_H
 #ifndef RUNTIMEOBJECT_H
 #define RUNTIMEOBJECT_H
 #ifdef __clang__
@@ -5096,6 +5096,15 @@ extern "C"  AudioClip_t1932558630 * AudioSource_get_clip_m2622010175 (AudioSourc
 	_il2cpp_icall_func = (AudioSource_get_clip_m2622010175_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::get_clip()");
 	AudioClip_t1932558630 * retVal = _il2cpp_icall_func(__this);
 	return retVal;
+}
+// System.Void UnityEngine.AudioSource::set_clip(UnityEngine.AudioClip)
+extern "C"  void AudioSource_set_clip_m4189170370 (AudioSource_t1135106623 * __this, AudioClip_t1932558630 * ___value0, const RuntimeMethod* method)
+{
+	typedef void (*AudioSource_set_clip_m4189170370_ftn) (AudioSource_t1135106623 *, AudioClip_t1932558630 *);
+	static AudioSource_set_clip_m4189170370_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_set_clip_m4189170370_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_clip(UnityEngine.AudioClip)");
+	_il2cpp_icall_func(__this, ___value0);
 }
 // System.Void UnityEngine.AudioSource::Play(System.UInt64)
 extern "C"  void AudioSource_Play_m1385529671 (AudioSource_t1135106623 * __this, uint64_t ___delay0, const RuntimeMethod* method)

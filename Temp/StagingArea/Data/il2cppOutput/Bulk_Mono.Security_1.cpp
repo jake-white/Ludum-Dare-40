@@ -7645,7 +7645,7 @@ IL_003b:
 		int32_t L_9 = V_1;
 		ASN1_t924533536 * L_10 = ASN1_get_Item_m1067746146(L_8, L_9, /*hidden argument*/NULL);
 		String_t* L_11 = ASN1Convert_ToOid_m1035860535(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
-		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(26 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_7, L_11);
+		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_7, L_11);
 		int32_t L_12 = V_1;
 		V_1 = ((int32_t)((int32_t)L_12+(int32_t)1));
 	}
@@ -7688,7 +7688,7 @@ extern "C"  void ExtendedKeyUsageExtension_Encode_m3429751649 (ExtendedKeyUsageE
 		ASN1__ctor_m646105945(L_0, (uint8_t)((int32_t)48), /*hidden argument*/NULL);
 		V_0 = L_0;
 		ArrayList_t4252133567 * L_1 = __this->get_keyPurpose_3();
-		RuntimeObject* L_2 = VirtFuncInvoker0< RuntimeObject* >::Invoke(39 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_1);
+		RuntimeObject* L_2 = VirtFuncInvoker0< RuntimeObject* >::Invoke(43 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_1);
 		V_2 = L_2;
 	}
 
@@ -7807,7 +7807,7 @@ extern "C"  String_t* ExtendedKeyUsageExtension_ToString_m1081992020 (ExtendedKe
 		StringBuilder__ctor_m3946851802(L_0, /*hidden argument*/NULL);
 		V_0 = L_0;
 		ArrayList_t4252133567 * L_1 = __this->get_keyPurpose_3();
-		RuntimeObject* L_2 = VirtFuncInvoker0< RuntimeObject* >::Invoke(39 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_1);
+		RuntimeObject* L_2 = VirtFuncInvoker0< RuntimeObject* >::Invoke(43 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_1);
 		V_2 = L_2;
 	}
 
@@ -8124,7 +8124,7 @@ IL_006b:
 		ASN1_t924533536 * L_12 = ASN1_get_Item_m1067746146(L_10, L_11, /*hidden argument*/NULL);
 		ByteU5BU5D_t3397334013* L_13 = ASN1_get_Value_m3116965808(L_12, /*hidden argument*/NULL);
 		String_t* L_14 = VirtFuncInvoker1< String_t*, ByteU5BU5D_t3397334013* >::Invoke(22 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_9, L_13);
-		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(26 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_8, L_14);
+		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_8, L_14);
 		goto IL_01f9;
 	}
 
@@ -8152,7 +8152,7 @@ IL_00a8:
 		ASN1_t924533536 * L_21 = ASN1_get_Item_m1067746146(L_19, L_20, /*hidden argument*/NULL);
 		ByteU5BU5D_t3397334013* L_22 = ASN1_get_Value_m3116965808(L_21, /*hidden argument*/NULL);
 		String_t* L_23 = VirtFuncInvoker1< String_t*, ByteU5BU5D_t3397334013* >::Invoke(22 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_18, L_22);
-		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(26 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_17, L_23);
+		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_17, L_23);
 		goto IL_01f9;
 	}
 
@@ -8179,7 +8179,7 @@ IL_00e5:
 		ASN1_t924533536 * L_30 = ASN1_get_Item_m1067746146(L_29, 0, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(X501_t349661535_il2cpp_TypeInfo_var);
 		String_t* L_31 = X501_ToString_m4145210560(NULL /*static, unused*/, L_30, /*hidden argument*/NULL);
-		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(26 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_26, L_31);
+		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_26, L_31);
 		goto IL_01f9;
 	}
 
@@ -8207,7 +8207,7 @@ IL_011e:
 		ASN1_t924533536 * L_38 = ASN1_get_Item_m1067746146(L_36, L_37, /*hidden argument*/NULL);
 		ByteU5BU5D_t3397334013* L_39 = ASN1_get_Value_m3116965808(L_38, /*hidden argument*/NULL);
 		String_t* L_40 = VirtFuncInvoker1< String_t*, ByteU5BU5D_t3397334013* >::Invoke(22 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_35, L_39);
-		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(26 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_34, L_40);
+		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_34, L_40);
 		goto IL_01f9;
 	}
 
@@ -8297,7 +8297,7 @@ IL_01bd:
 		ArrayList_t4252133567 * L_60 = __this->get_ipAddr_4();
 		StringBuilder_t1221177846 * L_61 = V_3;
 		String_t* L_62 = StringBuilder_ToString_m1507807375(L_61, /*hidden argument*/NULL);
-		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(26 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_60, L_62);
+		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_60, L_62);
 		ArrayList_t4252133567 * L_63 = __this->get_ipAddr_4();
 		if (L_63)
 		{
@@ -8365,7 +8365,7 @@ IL_0012:
 		ArrayList_t4252133567 * L_1 = __this->get_dnsName_1();
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_2 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(String_t_0_0_0_var), /*hidden argument*/NULL);
-		RuntimeArray * L_3 = VirtFuncInvoker1< RuntimeArray *, Type_t * >::Invoke(44 /* System.Array System.Collections.ArrayList::ToArray(System.Type) */, L_1, L_2);
+		RuntimeArray * L_3 = VirtFuncInvoker1< RuntimeArray *, Type_t * >::Invoke(48 /* System.Array System.Collections.ArrayList::ToArray(System.Type) */, L_1, L_2);
 		return ((StringU5BU5D_t1642385972*)Castclass((RuntimeObject*)L_3, StringU5BU5D_t1642385972_il2cpp_TypeInfo_var));
 	}
 }
@@ -8394,7 +8394,7 @@ IL_0012:
 		ArrayList_t4252133567 * L_1 = __this->get_ipAddr_4();
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_2 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(String_t_0_0_0_var), /*hidden argument*/NULL);
-		RuntimeArray * L_3 = VirtFuncInvoker1< RuntimeArray *, Type_t * >::Invoke(44 /* System.Array System.Collections.ArrayList::ToArray(System.Type) */, L_1, L_2);
+		RuntimeArray * L_3 = VirtFuncInvoker1< RuntimeArray *, Type_t * >::Invoke(48 /* System.Array System.Collections.ArrayList::ToArray(System.Type) */, L_1, L_2);
 		return ((StringU5BU5D_t1642385972*)Castclass((RuntimeObject*)L_3, StringU5BU5D_t1642385972_il2cpp_TypeInfo_var));
 	}
 }
@@ -8441,7 +8441,7 @@ extern "C"  String_t* GeneralNames_ToString_m800435094 (GeneralNames_t2355256240
 	}
 	{
 		ArrayList_t4252133567 * L_2 = __this->get_rfc822Name_0();
-		RuntimeObject* L_3 = VirtFuncInvoker0< RuntimeObject* >::Invoke(39 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_2);
+		RuntimeObject* L_3 = VirtFuncInvoker0< RuntimeObject* >::Invoke(43 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_2);
 		V_2 = L_3;
 	}
 
@@ -8528,7 +8528,7 @@ IL_0073:
 	}
 	{
 		ArrayList_t4252133567 * L_17 = __this->get_dnsName_1();
-		RuntimeObject* L_18 = VirtFuncInvoker0< RuntimeObject* >::Invoke(39 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_17);
+		RuntimeObject* L_18 = VirtFuncInvoker0< RuntimeObject* >::Invoke(43 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_17);
 		V_4 = L_18;
 	}
 
@@ -8615,7 +8615,7 @@ IL_00e4:
 	}
 	{
 		ArrayList_t4252133567 * L_32 = __this->get_directoryNames_2();
-		RuntimeObject* L_33 = VirtFuncInvoker0< RuntimeObject* >::Invoke(39 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_32);
+		RuntimeObject* L_33 = VirtFuncInvoker0< RuntimeObject* >::Invoke(43 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_32);
 		V_6 = L_33;
 	}
 
@@ -8702,7 +8702,7 @@ IL_0157:
 	}
 	{
 		ArrayList_t4252133567 * L_47 = __this->get_uris_3();
-		RuntimeObject* L_48 = VirtFuncInvoker0< RuntimeObject* >::Invoke(39 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_47);
+		RuntimeObject* L_48 = VirtFuncInvoker0< RuntimeObject* >::Invoke(43 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_47);
 		V_8 = L_48;
 	}
 
@@ -8789,7 +8789,7 @@ IL_01ca:
 	}
 	{
 		ArrayList_t4252133567 * L_62 = __this->get_ipAddr_4();
-		RuntimeObject* L_63 = VirtFuncInvoker0< RuntimeObject* >::Invoke(39 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_62);
+		RuntimeObject* L_63 = VirtFuncInvoker0< RuntimeObject* >::Invoke(43 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_62);
 		V_10 = L_63;
 	}
 
@@ -10458,9 +10458,9 @@ extern "C"  ArrayList_t4252133567 * PKCS12_get_Keys_m1312614820 (PKCS12_t1362584
 	}
 	{
 		ArrayList_t4252133567 * L_1 = __this->get__keyBags_2();
-		VirtActionInvoker0::Invoke(27 /* System.Void System.Collections.ArrayList::Clear() */, L_1);
+		VirtActionInvoker0::Invoke(31 /* System.Void System.Collections.ArrayList::Clear() */, L_1);
 		ArrayList_t4252133567 * L_2 = __this->get__safeBags_9();
-		RuntimeObject* L_3 = VirtFuncInvoker0< RuntimeObject* >::Invoke(39 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_2);
+		RuntimeObject* L_3 = VirtFuncInvoker0< RuntimeObject* >::Invoke(43 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_2);
 		V_1 = L_3;
 	}
 
@@ -10533,7 +10533,7 @@ IL_0089:
 			ByteU5BU5D_t3397334013* L_24 = V_5;
 			DSAParameters_t1872138834  L_25 = V_6;
 			DSA_t903174880 * L_26 = PrivateKeyInfo_DecodeDSA_m2497561917(NULL /*static, unused*/, L_24, L_25, /*hidden argument*/NULL);
-			VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(26 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_23, L_26);
+			VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_23, L_26);
 			goto IL_00c8;
 		}
 
@@ -10542,7 +10542,7 @@ IL_00ab:
 			ArrayList_t4252133567 * L_27 = __this->get__keyBags_2();
 			ByteU5BU5D_t3397334013* L_28 = V_5;
 			RSA_t3719518354 * L_29 = PrivateKeyInfo_DecodeRSA_m919734506(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
-			VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(26 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_27, L_29);
+			VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_27, L_29);
 			goto IL_00c8;
 		}
 
@@ -10632,7 +10632,7 @@ IL_0160:
 			ByteU5BU5D_t3397334013* L_61 = V_12;
 			DSAParameters_t1872138834  L_62 = V_13;
 			DSA_t903174880 * L_63 = PrivateKeyInfo_DecodeDSA_m2497561917(NULL /*static, unused*/, L_61, L_62, /*hidden argument*/NULL);
-			VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(26 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_60, L_63);
+			VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_60, L_63);
 			goto IL_019f;
 		}
 
@@ -10641,7 +10641,7 @@ IL_0182:
 			ArrayList_t4252133567 * L_64 = __this->get__keyBags_2();
 			ByteU5BU5D_t3397334013* L_65 = V_12;
 			RSA_t3719518354 * L_66 = PrivateKeyInfo_DecodeRSA_m919734506(NULL /*static, unused*/, L_65, /*hidden argument*/NULL);
-			VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(26 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_64, L_66);
+			VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_64, L_66);
 			goto IL_019f;
 		}
 
@@ -10756,7 +10756,7 @@ extern "C"  X509CertificateCollection_t3592472866 * PKCS12_get_Certificates_m127
 		X509CertificateCollection_t3592472866 * L_1 = __this->get__certs_4();
 		CollectionBase_Clear_m4223862684(L_1, /*hidden argument*/NULL);
 		ArrayList_t4252133567 * L_2 = __this->get__safeBags_9();
-		RuntimeObject* L_3 = VirtFuncInvoker0< RuntimeObject* >::Invoke(39 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_2);
+		RuntimeObject* L_3 = VirtFuncInvoker0< RuntimeObject* >::Invoke(43 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_2);
 		V_1 = L_3;
 	}
 
@@ -11624,7 +11624,7 @@ IL_001f:
 		ByteU5BU5D_t3397334013* L_10 = V_0;
 		DSAParameters_t1872138834  L_11 = V_2;
 		DSA_t903174880 * L_12 = PrivateKeyInfo_DecodeDSA_m2497561917(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
-		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(26 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_9, L_12);
+		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_9, L_12);
 	}
 
 IL_0041:
@@ -11637,7 +11637,7 @@ IL_0046:
 		ArrayList_t4252133567 * L_13 = __this->get__keyBags_2();
 		ByteU5BU5D_t3397334013* L_14 = V_0;
 		RSA_t3719518354 * L_15 = PrivateKeyInfo_DecodeRSA_m919734506(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
-		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(26 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_13, L_15);
+		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_13, L_15);
 		goto IL_0072;
 	}
 
@@ -11895,7 +11895,7 @@ IL_01ad:
 		V_7 = L_61;
 		ArrayList_t4252133567 * L_62 = __this->get__secretBags_3();
 		ByteU5BU5D_t3397334013* L_63 = V_7;
-		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(26 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_62, (RuntimeObject *)(RuntimeObject *)L_63);
+		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_62, (RuntimeObject *)(RuntimeObject *)L_63);
 		goto IL_01d8;
 	}
 
@@ -12140,7 +12140,7 @@ IL_0347:
 		ASN1_t924533536 * L_118 = ___safeBag0;
 		SafeBag_t2166702856 * L_119 = (SafeBag_t2166702856 *)il2cpp_codegen_object_new(SafeBag_t2166702856_il2cpp_TypeInfo_var);
 		SafeBag__ctor_m2828572544(L_119, L_117, L_118, /*hidden argument*/NULL);
-		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(26 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_116, L_119);
+		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_116, L_119);
 		return;
 	}
 }
@@ -12299,7 +12299,7 @@ IL_00f3:
 		RuntimeObject * L_36 = InterfaceFuncInvoker0< RuntimeObject * >::Invoke(2 /* System.Object System.Collections.IDictionaryEnumerator::get_Value() */, IDictionaryEnumerator_t259680273_il2cpp_TypeInfo_var, L_35);
 		V_7 = ((ArrayList_t4252133567 *)CastclassClass((RuntimeObject*)L_36, ArrayList_t4252133567_il2cpp_TypeInfo_var));
 		ArrayList_t4252133567 * L_37 = V_7;
-		int32_t L_38 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_37);
+		int32_t L_38 = VirtFuncInvoker0< int32_t >::Invoke(23 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_37);
 		if ((((int32_t)L_38) <= ((int32_t)0)))
 		{
 			goto IL_01a5;
@@ -12316,7 +12316,7 @@ IL_00f3:
 		ASN1__ctor_m646105945(L_42, (uint8_t)((int32_t)49), /*hidden argument*/NULL);
 		V_9 = L_42;
 		ArrayList_t4252133567 * L_43 = V_7;
-		RuntimeObject* L_44 = VirtFuncInvoker0< RuntimeObject* >::Invoke(39 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_43);
+		RuntimeObject* L_44 = VirtFuncInvoker0< RuntimeObject* >::Invoke(43 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_43);
 		V_11 = L_44;
 	}
 
@@ -12415,7 +12415,7 @@ IL_01aa:
 		RuntimeObject * L_62 = InterfaceFuncInvoker0< RuntimeObject * >::Invoke(2 /* System.Object System.Collections.IDictionaryEnumerator::get_Value() */, IDictionaryEnumerator_t259680273_il2cpp_TypeInfo_var, L_61);
 		V_13 = ((ArrayList_t4252133567 *)CastclassClass((RuntimeObject*)L_62, ArrayList_t4252133567_il2cpp_TypeInfo_var));
 		ArrayList_t4252133567 * L_63 = V_13;
-		int32_t L_64 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_63);
+		int32_t L_64 = VirtFuncInvoker0< int32_t >::Invoke(23 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_63);
 		if ((((int32_t)L_64) <= ((int32_t)0)))
 		{
 			goto IL_025b;
@@ -12432,7 +12432,7 @@ IL_01aa:
 		ASN1__ctor_m646105945(L_68, (uint8_t)((int32_t)49), /*hidden argument*/NULL);
 		V_15 = L_68;
 		ArrayList_t4252133567 * L_69 = V_13;
-		RuntimeObject* L_70 = VirtFuncInvoker0< RuntimeObject* >::Invoke(39 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_69);
+		RuntimeObject* L_70 = VirtFuncInvoker0< RuntimeObject* >::Invoke(43 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_69);
 		V_17 = L_70;
 	}
 
@@ -12677,7 +12677,7 @@ extern "C"  ByteU5BU5D_t3397334013* PKCS12_GetBytes_m2884672032 (PKCS12_t1362584
 		ArrayList__ctor_m4012174379(L_1, /*hidden argument*/NULL);
 		V_1 = L_1;
 		ArrayList_t4252133567 * L_2 = __this->get__safeBags_9();
-		RuntimeObject* L_3 = VirtFuncInvoker0< RuntimeObject* >::Invoke(39 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_2);
+		RuntimeObject* L_3 = VirtFuncInvoker0< RuntimeObject* >::Invoke(43 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_2);
 		V_3 = L_3;
 	}
 
@@ -12722,7 +12722,7 @@ IL_0040:
 			ByteU5BU5D_t3397334013* L_20 = ASN1_get_Value_m3116965808(L_19, /*hidden argument*/NULL);
 			X509Certificate_t324051958 * L_21 = (X509Certificate_t324051958 *)il2cpp_codegen_object_new(X509Certificate_t324051958_il2cpp_TypeInfo_var);
 			X509Certificate__ctor_m2941481449(L_21, L_20, /*hidden argument*/NULL);
-			VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(26 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_16, L_21);
+			VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_16, L_21);
 		}
 
 IL_007e:
@@ -12803,7 +12803,7 @@ IL_00c3:
 			V_9 = L_32;
 			V_11 = (bool)0;
 			ArrayList_t4252133567 * L_33 = V_1;
-			RuntimeObject* L_34 = VirtFuncInvoker0< RuntimeObject* >::Invoke(39 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_33);
+			RuntimeObject* L_34 = VirtFuncInvoker0< RuntimeObject* >::Invoke(43 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_33);
 			V_13 = L_34;
 		}
 
@@ -12899,7 +12899,7 @@ IL_0134:
 		{
 			ArrayList_t4252133567 * L_48 = V_7;
 			X509Certificate_t324051958 * L_49 = V_9;
-			VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(26 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_48, L_49);
+			VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_48, L_49);
 		}
 
 IL_013e:
@@ -12956,7 +12956,7 @@ IL_015d:
 IL_0165:
 	{
 		ArrayList_t4252133567 * L_55 = V_1;
-		RuntimeObject* L_56 = VirtFuncInvoker0< RuntimeObject* >::Invoke(39 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_55);
+		RuntimeObject* L_56 = VirtFuncInvoker0< RuntimeObject* >::Invoke(43 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_55);
 		V_15 = L_56;
 	}
 
@@ -13070,7 +13070,7 @@ IL_01e8:
 		{
 			ArrayList_t4252133567 * L_74 = V_8;
 			X509Certificate_t324051958 * L_75 = V_14;
-			VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(26 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_74, L_75);
+			VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_74, L_75);
 		}
 
 IL_01f2:
@@ -13127,7 +13127,7 @@ IL_0211:
 IL_0219:
 	{
 		ArrayList_t4252133567 * L_81 = V_8;
-		RuntimeObject* L_82 = VirtFuncInvoker0< RuntimeObject* >::Invoke(39 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_81);
+		RuntimeObject* L_82 = VirtFuncInvoker0< RuntimeObject* >::Invoke(43 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_81);
 		V_20 = L_82;
 	}
 
@@ -13201,7 +13201,7 @@ IL_025c:
 IL_0264:
 	{
 		ArrayList_t4252133567 * L_91 = V_7;
-		RuntimeObject* L_92 = VirtFuncInvoker0< RuntimeObject* >::Invoke(39 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_91);
+		RuntimeObject* L_92 = VirtFuncInvoker0< RuntimeObject* >::Invoke(43 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_91);
 		V_22 = L_92;
 	}
 
@@ -13275,7 +13275,7 @@ IL_02a7:
 IL_02af:
 	{
 		ArrayList_t4252133567 * L_101 = __this->get__safeBags_9();
-		int32_t L_102 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_101);
+		int32_t L_102 = VirtFuncInvoker0< int32_t >::Invoke(23 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_101);
 		if ((((int32_t)L_102) <= ((int32_t)0)))
 		{
 			goto IL_035f;
@@ -13286,7 +13286,7 @@ IL_02af:
 		ASN1__ctor_m646105945(L_103, (uint8_t)((int32_t)48), /*hidden argument*/NULL);
 		V_23 = L_103;
 		ArrayList_t4252133567 * L_104 = __this->get__safeBags_9();
-		RuntimeObject* L_105 = VirtFuncInvoker0< RuntimeObject* >::Invoke(39 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_104);
+		RuntimeObject* L_105 = VirtFuncInvoker0< RuntimeObject* >::Invoke(43 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_104);
 		V_25 = L_105;
 	}
 
@@ -13392,7 +13392,7 @@ IL_0335:
 IL_035f:
 	{
 		ArrayList_t4252133567 * L_126 = __this->get__safeBags_9();
-		int32_t L_127 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_126);
+		int32_t L_127 = VirtFuncInvoker0< int32_t >::Invoke(23 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_126);
 		if ((((int32_t)L_127) <= ((int32_t)0)))
 		{
 			goto IL_044c;
@@ -13403,7 +13403,7 @@ IL_035f:
 		ASN1__ctor_m646105945(L_128, (uint8_t)((int32_t)48), /*hidden argument*/NULL);
 		V_27 = L_128;
 		ArrayList_t4252133567 * L_129 = __this->get__safeBags_9();
-		RuntimeObject* L_130 = VirtFuncInvoker0< RuntimeObject* >::Invoke(39 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_129);
+		RuntimeObject* L_130 = VirtFuncInvoker0< RuntimeObject* >::Invoke(43 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_129);
 		V_29 = L_130;
 	}
 
@@ -13532,7 +13532,7 @@ IL_03fb:
 IL_044c:
 	{
 		ArrayList_t4252133567 * L_160 = __this->get__safeBags_9();
-		int32_t L_161 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_160);
+		int32_t L_161 = VirtFuncInvoker0< int32_t >::Invoke(23 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_160);
 		if ((((int32_t)L_161) <= ((int32_t)0)))
 		{
 			goto IL_04fc;
@@ -13543,7 +13543,7 @@ IL_044c:
 		ASN1__ctor_m646105945(L_162, (uint8_t)((int32_t)48), /*hidden argument*/NULL);
 		V_32 = L_162;
 		ArrayList_t4252133567 * L_163 = __this->get__safeBags_9();
-		RuntimeObject* L_164 = VirtFuncInvoker0< RuntimeObject* >::Invoke(39 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_163);
+		RuntimeObject* L_164 = VirtFuncInvoker0< RuntimeObject* >::Invoke(43 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_163);
 		V_34 = L_164;
 	}
 
@@ -13892,7 +13892,7 @@ IL_0009:
 	{
 		ArrayList_t4252133567 * L_0 = __this->get__safeBags_9();
 		int32_t L_1 = V_1;
-		RuntimeObject * L_2 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(18 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_0, L_1);
+		RuntimeObject * L_2 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(21 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_0, L_1);
 		V_2 = ((SafeBag_t2166702856 *)CastclassClass((RuntimeObject*)L_2, SafeBag_t2166702856_il2cpp_TypeInfo_var));
 		SafeBag_t2166702856 * L_3 = V_2;
 		String_t* L_4 = SafeBag_get_BagOID_m2574947216(L_3, /*hidden argument*/NULL);
@@ -13952,7 +13952,7 @@ IL_0085:
 	{
 		int32_t L_25 = V_1;
 		ArrayList_t4252133567 * L_26 = __this->get__safeBags_9();
-		int32_t L_27 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_26);
+		int32_t L_27 = VirtFuncInvoker0< int32_t >::Invoke(23 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_26);
 		if ((((int32_t)L_25) < ((int32_t)L_27)))
 		{
 			goto IL_0009;
@@ -13974,7 +13974,7 @@ IL_009c:
 		ASN1_t924533536 * L_32 = PKCS12_CertificateSafeBag_m3272197807(__this, L_30, L_31, /*hidden argument*/NULL);
 		SafeBag_t2166702856 * L_33 = (SafeBag_t2166702856 *)il2cpp_codegen_object_new(SafeBag_t2166702856_il2cpp_TypeInfo_var);
 		SafeBag__ctor_m2828572544(L_33, _stringLiteral2922737969, L_32, /*hidden argument*/NULL);
-		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(26 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_29, L_33);
+		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_29, L_33);
 		__this->set__certsChanged_7((bool)1);
 	}
 
@@ -14030,7 +14030,7 @@ IL_0009:
 	{
 		ArrayList_t4252133567 * L_0 = __this->get__safeBags_9();
 		int32_t L_1 = V_1;
-		RuntimeObject * L_2 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(18 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_0, L_1);
+		RuntimeObject * L_2 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(21 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_0, L_1);
 		V_2 = ((SafeBag_t2166702856 *)CastclassClass((RuntimeObject*)L_2, SafeBag_t2166702856_il2cpp_TypeInfo_var));
 		SafeBag_t2166702856 * L_3 = V_2;
 		String_t* L_4 = SafeBag_get_BagOID_m2574947216(L_3, /*hidden argument*/NULL);
@@ -14120,7 +14120,7 @@ IL_00a5:
 		ASN1_t924533536 * L_40 = ASN1_get_Item_m1067746146(L_39, 1, /*hidden argument*/NULL);
 		V_14 = L_40;
 		ArrayList_t4252133567 * L_41 = V_13;
-		int32_t L_42 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_41);
+		int32_t L_42 = VirtFuncInvoker0< int32_t >::Invoke(23 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_41);
 		ASN1_t924533536 * L_43 = V_14;
 		int32_t L_44 = ASN1_get_Count_m3992276234(L_43, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_42) == ((uint32_t)L_44))))
@@ -14142,7 +14142,7 @@ IL_0101:
 		V_17 = L_47;
 		ArrayList_t4252133567 * L_48 = V_13;
 		int32_t L_49 = V_16;
-		RuntimeObject * L_50 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(18 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_48, L_49);
+		RuntimeObject * L_50 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(21 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_48, L_49);
 		V_18 = ((ByteU5BU5D_t3397334013*)Castclass((RuntimeObject*)L_50, ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var));
 		ByteU5BU5D_t3397334013* L_51 = V_18;
 		ASN1_t924533536 * L_52 = V_17;
@@ -14246,7 +14246,7 @@ IL_018d:
 	{
 		int32_t L_75 = V_1;
 		ArrayList_t4252133567 * L_76 = __this->get__safeBags_9();
-		int32_t L_77 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_76);
+		int32_t L_77 = VirtFuncInvoker0< int32_t >::Invoke(23 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_76);
 		if ((((int32_t)L_75) < ((int32_t)L_77)))
 		{
 			goto IL_0009;
@@ -14264,7 +14264,7 @@ IL_01a5:
 	{
 		ArrayList_t4252133567 * L_79 = __this->get__safeBags_9();
 		int32_t L_80 = V_0;
-		VirtActionInvoker1< int32_t >::Invoke(35 /* System.Void System.Collections.ArrayList::RemoveAt(System.Int32) */, L_79, L_80);
+		VirtActionInvoker1< int32_t >::Invoke(39 /* System.Void System.Collections.ArrayList::RemoveAt(System.Int32) */, L_79, L_80);
 		__this->set__certsChanged_7((bool)1);
 	}
 
@@ -17581,7 +17581,7 @@ extern "C"  RuntimeObject* X509CertificateCollection_System_Collections_IEnumera
 {
 	{
 		ArrayList_t4252133567 * L_0 = CollectionBase_get_InnerList_m44314156(__this, /*hidden argument*/NULL);
-		RuntimeObject* L_1 = VirtFuncInvoker0< RuntimeObject* >::Invoke(39 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_0);
+		RuntimeObject* L_1 = VirtFuncInvoker0< RuntimeObject* >::Invoke(43 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_0);
 		return L_1;
 	}
 }
@@ -17597,7 +17597,7 @@ extern "C"  X509Certificate_t324051958 * X509CertificateCollection_get_Item_m211
 	{
 		ArrayList_t4252133567 * L_0 = CollectionBase_get_InnerList_m44314156(__this, /*hidden argument*/NULL);
 		int32_t L_1 = ___index0;
-		RuntimeObject * L_2 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(18 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_0, L_1);
+		RuntimeObject * L_2 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(21 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_0, L_1);
 		return ((X509Certificate_t324051958 *)CastclassClass((RuntimeObject*)L_2, X509Certificate_t324051958_il2cpp_TypeInfo_var));
 	}
 }
@@ -17627,7 +17627,7 @@ IL_0011:
 	{
 		ArrayList_t4252133567 * L_2 = CollectionBase_get_InnerList_m44314156(__this, /*hidden argument*/NULL);
 		X509Certificate_t324051958 * L_3 = ___value0;
-		int32_t L_4 = VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(26 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_2, L_3);
+		int32_t L_4 = VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_2, L_3);
 		return L_4;
 	}
 }
@@ -17666,7 +17666,7 @@ IL_0018:
 		X509CertificateCollection_t3592472866 * L_3 = ___value0;
 		int32_t L_4 = V_0;
 		X509Certificate_t324051958 * L_5 = X509CertificateCollection_get_Item_m2115598414(L_3, L_4, /*hidden argument*/NULL);
-		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(26 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_2, L_5);
+		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_2, L_5);
 		int32_t L_6 = V_0;
 		V_0 = ((int32_t)((int32_t)L_6+(int32_t)1));
 	}
@@ -17676,7 +17676,7 @@ IL_002f:
 		int32_t L_7 = V_0;
 		X509CertificateCollection_t3592472866 * L_8 = ___value0;
 		ArrayList_t4252133567 * L_9 = CollectionBase_get_InnerList_m44314156(L_8, /*hidden argument*/NULL);
-		int32_t L_10 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_9);
+		int32_t L_10 = VirtFuncInvoker0< int32_t >::Invoke(23 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_9);
 		if ((((int32_t)L_7) < ((int32_t)L_10)))
 		{
 			goto IL_0018;
@@ -17757,7 +17757,7 @@ IL_001f:
 	{
 		ArrayList_t4252133567 * L_4 = CollectionBase_get_InnerList_m44314156(__this, /*hidden argument*/NULL);
 		int32_t L_5 = V_1;
-		RuntimeObject * L_6 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(18 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_4, L_5);
+		RuntimeObject * L_6 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(21 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_4, L_5);
 		V_2 = ((X509Certificate_t324051958 *)CastclassClass((RuntimeObject*)L_6, X509Certificate_t324051958_il2cpp_TypeInfo_var));
 		X509Certificate_t324051958 * L_7 = V_2;
 		ByteU5BU5D_t3397334013* L_8 = X509Certificate_get_Hash_m2470366345(L_7, /*hidden argument*/NULL);
@@ -17783,7 +17783,7 @@ IL_0049:
 	{
 		int32_t L_13 = V_1;
 		ArrayList_t4252133567 * L_14 = CollectionBase_get_InnerList_m44314156(__this, /*hidden argument*/NULL);
-		int32_t L_15 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_14);
+		int32_t L_15 = VirtFuncInvoker0< int32_t >::Invoke(23 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_14);
 		if ((((int32_t)L_13) < ((int32_t)L_15)))
 		{
 			goto IL_001f;
@@ -17799,7 +17799,7 @@ extern "C"  void X509CertificateCollection_Remove_m2722259192 (X509CertificateCo
 	{
 		ArrayList_t4252133567 * L_0 = CollectionBase_get_InnerList_m44314156(__this, /*hidden argument*/NULL);
 		X509Certificate_t324051958 * L_1 = ___value0;
-		VirtActionInvoker1< RuntimeObject * >::Invoke(34 /* System.Void System.Collections.ArrayList::Remove(System.Object) */, L_0, L_1);
+		VirtActionInvoker1< RuntimeObject * >::Invoke(38 /* System.Void System.Collections.ArrayList::Remove(System.Object) */, L_0, L_1);
 		return;
 	}
 }
@@ -19095,7 +19095,7 @@ IL_014c:
 			ASN1_t924533536 * L_65 = ASN1_get_Item_m1067746146(L_63, L_64, /*hidden argument*/NULL);
 			X509CrlEntry_t743353844 * L_66 = (X509CrlEntry_t743353844 *)il2cpp_codegen_object_new(X509CrlEntry_t743353844_il2cpp_TypeInfo_var);
 			X509CrlEntry__ctor_m3156488776(L_66, L_65, /*hidden argument*/NULL);
-			VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(26 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_62, L_66);
+			VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_62, L_66);
 			int32_t L_67 = V_6;
 			V_6 = ((int32_t)((int32_t)L_67+(int32_t)1));
 		}
@@ -19473,7 +19473,7 @@ IL_0018:
 	{
 		ArrayList_t4252133567 * L_2 = __this->get_entries_4();
 		int32_t L_3 = V_0;
-		RuntimeObject * L_4 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(18 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_2, L_3);
+		RuntimeObject * L_4 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(21 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_2, L_3);
 		V_1 = ((X509CrlEntry_t743353844 *)CastclassClass((RuntimeObject*)L_4, X509CrlEntry_t743353844_il2cpp_TypeInfo_var));
 		ByteU5BU5D_t3397334013* L_5 = ___serialNumber0;
 		X509CrlEntry_t743353844 * L_6 = V_1;
@@ -19499,7 +19499,7 @@ IL_0042:
 	{
 		int32_t L_11 = V_0;
 		ArrayList_t4252133567 * L_12 = __this->get_entries_4();
-		int32_t L_13 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_12);
+		int32_t L_13 = VirtFuncInvoker0< int32_t >::Invoke(23 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_12);
 		if ((((int32_t)L_11) < ((int32_t)L_13)))
 		{
 			goto IL_0018;
@@ -20541,7 +20541,7 @@ IL_0033:
 		V_1 = L_7;
 		ArrayList_t4252133567 * L_8 = CollectionBase_get_InnerList_m44314156(__this, /*hidden argument*/NULL);
 		X509Extension_t1439760128 * L_9 = V_1;
-		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(26 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_8, L_9);
+		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_8, L_9);
 		int32_t L_10 = V_0;
 		V_0 = ((int32_t)((int32_t)L_10+(int32_t)1));
 	}
@@ -20565,7 +20565,7 @@ extern "C"  RuntimeObject* X509ExtensionCollection_System_Collections_IEnumerabl
 {
 	{
 		ArrayList_t4252133567 * L_0 = CollectionBase_get_InnerList_m44314156(__this, /*hidden argument*/NULL);
-		RuntimeObject* L_1 = VirtFuncInvoker0< RuntimeObject* >::Invoke(39 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_0);
+		RuntimeObject* L_1 = VirtFuncInvoker0< RuntimeObject* >::Invoke(43 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_0);
 		return L_1;
 	}
 }
@@ -20603,7 +20603,7 @@ IL_0018:
 	{
 		ArrayList_t4252133567 * L_2 = CollectionBase_get_InnerList_m44314156(__this, /*hidden argument*/NULL);
 		int32_t L_3 = V_0;
-		RuntimeObject * L_4 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(18 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_2, L_3);
+		RuntimeObject * L_4 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(21 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_2, L_3);
 		V_1 = ((X509Extension_t1439760128 *)CastclassClass((RuntimeObject*)L_4, X509Extension_t1439760128_il2cpp_TypeInfo_var));
 		X509Extension_t1439760128 * L_5 = V_1;
 		String_t* L_6 = X509Extension_get_Oid_m2301335920(L_5, /*hidden argument*/NULL);
@@ -20630,7 +20630,7 @@ IL_0041:
 	{
 		int32_t L_11 = V_0;
 		ArrayList_t4252133567 * L_12 = CollectionBase_get_InnerList_m44314156(__this, /*hidden argument*/NULL);
-		int32_t L_13 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_12);
+		int32_t L_13 = VirtFuncInvoker0< int32_t >::Invoke(23 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_12);
 		if ((((int32_t)L_11) < ((int32_t)L_13)))
 		{
 			goto IL_0018;
@@ -20668,7 +20668,7 @@ IL_0011:
 	{
 		ArrayList_t4252133567 * L_3 = CollectionBase_get_InnerList_m44314156(__this, /*hidden argument*/NULL);
 		int32_t L_4 = V_0;
-		RuntimeObject * L_5 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(18 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_3, L_4);
+		RuntimeObject * L_5 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(21 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_3, L_4);
 		return ((X509Extension_t1439760128 *)CastclassClass((RuntimeObject*)L_5, X509Extension_t1439760128_il2cpp_TypeInfo_var));
 	}
 }
@@ -21171,7 +21171,7 @@ IL_004e:
 		V_6 = L_17;
 		ArrayList_t4252133567 * L_18 = V_0;
 		X509Crl_t1699034837 * L_19 = V_6;
-		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(26 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_18, L_19);
+		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_18, L_19);
 		goto IL_006b;
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 1c3b18b8fa4ed481fb541778b2f5d3fb
+timeCreated: 1512265628
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Speculum
+  fontNames:
+  - Speculum
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

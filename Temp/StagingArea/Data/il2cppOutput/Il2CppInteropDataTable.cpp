@@ -153,6 +153,8 @@ extern "C" void UriScheme_t1876590943_marshal_pinvoke(void* managedStructure, vo
 extern "C" void UriScheme_t1876590943_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
 extern "C" void UriScheme_t1876590943_marshal_pinvoke_cleanup(void* marshaledStructure);
 extern const RuntimeType UriScheme_t1876590943_0_0_0;
+extern "C" void DelegatePInvokeWrapper_Action_t3226471752();
+extern const RuntimeType Action_t3226471752_0_0_0;
 extern "C" void AnimationCurve_t3306541151_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
 extern "C" void AnimationCurve_t3306541151_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
 extern "C" void AnimationCurve_t3306541151_marshal_pinvoke_cleanup(void* marshaledStructure);
@@ -205,6 +207,10 @@ extern "C" void PlayableBinding_t2498078091_marshal_pinvoke(void* managedStructu
 extern "C" void PlayableBinding_t2498078091_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
 extern "C" void PlayableBinding_t2498078091_marshal_pinvoke_cleanup(void* marshaledStructure);
 extern const RuntimeType PlayableBinding_t2498078091_0_0_0;
+extern "C" void RectOffset_t3387826427_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void RectOffset_t3387826427_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void RectOffset_t3387826427_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const RuntimeType RectOffset_t3387826427_0_0_0;
 extern "C" void ResourceRequest_t2560315377_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
 extern "C" void ResourceRequest_t2560315377_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
 extern "C" void ResourceRequest_t2560315377_marshal_pinvoke_cleanup(void* marshaledStructure);
@@ -247,6 +253,16 @@ extern "C" void RaycastHit2D_t4063908774_marshal_pinvoke(void* managedStructure,
 extern "C" void RaycastHit2D_t4063908774_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
 extern "C" void RaycastHit2D_t4063908774_marshal_pinvoke_cleanup(void* marshaledStructure);
 extern const RuntimeType RaycastHit2D_t4063908774_0_0_0;
+extern "C" void DelegatePInvokeWrapper_FontTextureRebuildCallback_t1272078033();
+extern const RuntimeType FontTextureRebuildCallback_t1272078033_0_0_0;
+extern "C" void TextGenerationSettings_t2543476768_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void TextGenerationSettings_t2543476768_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void TextGenerationSettings_t2543476768_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const RuntimeType TextGenerationSettings_t2543476768_0_0_0;
+extern "C" void TextGenerator_t647235000_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void TextGenerator_t647235000_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void TextGenerator_t647235000_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const RuntimeType TextGenerator_t647235000_0_0_0;
 extern "C" void AnimationEvent_t2428323300_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
 extern "C" void AnimationEvent_t2428323300_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
 extern "C" void AnimationEvent_t2428323300_marshal_pinvoke_cleanup(void* marshaledStructure);
@@ -269,6 +285,40 @@ extern "C" void DelegatePInvokeWrapper_PCMSetPositionCallback_t421863554();
 extern const RuntimeType PCMSetPositionCallback_t421863554_0_0_0;
 extern "C" void DelegatePInvokeWrapper_AudioConfigurationChangeHandler_t3743753033();
 extern const RuntimeType AudioConfigurationChangeHandler_t3743753033_0_0_0;
+extern "C" void Event_t3028476042_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void Event_t3028476042_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void Event_t3028476042_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const RuntimeType Event_t3028476042_0_0_0;
+extern "C" void DelegatePInvokeWrapper_WindowFunction_t3486805455();
+extern const RuntimeType WindowFunction_t3486805455_0_0_0;
+extern "C" void GUIContent_t4210063000_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void GUIContent_t4210063000_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void GUIContent_t4210063000_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const RuntimeType GUIContent_t4210063000_0_0_0;
+extern "C" void DelegatePInvokeWrapper_SkinChangedDelegate_t3594822336();
+extern const RuntimeType SkinChangedDelegate_t3594822336_0_0_0;
+extern "C" void GUIStyle_t1799908754_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void GUIStyle_t1799908754_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void GUIStyle_t1799908754_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const RuntimeType GUIStyle_t1799908754_0_0_0;
+extern "C" void GUIStyleState_t3801000545_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void GUIStyleState_t3801000545_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void GUIStyleState_t3801000545_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const RuntimeType GUIStyleState_t3801000545_0_0_0;
+extern "C" void Collision_t2876846408_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void Collision_t2876846408_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void Collision_t2876846408_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const RuntimeType Collision_t2876846408_0_0_0;
+extern "C" void ControllerColliderHit_t4070855101_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void ControllerColliderHit_t4070855101_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void ControllerColliderHit_t4070855101_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const RuntimeType ControllerColliderHit_t4070855101_0_0_0;
+extern "C" void RaycastHit_t87180320_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void RaycastHit_t87180320_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void RaycastHit_t87180320_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const RuntimeType RaycastHit_t87180320_0_0_0;
+extern "C" void DelegatePInvokeWrapper_WillRenderCanvases_t3522132132();
+extern const RuntimeType WillRenderCanvases_t3522132132_0_0_0;
 extern "C" void CustomEventData_t1269126727_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
 extern "C" void CustomEventData_t1269126727_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
 extern "C" void CustomEventData_t1269126727_marshal_pinvoke_cleanup(void* marshaledStructure);
@@ -281,7 +331,33 @@ extern "C" void DelegatePInvokeWrapper_SessionStateChanged_t1604629407();
 extern const RuntimeType SessionStateChanged_t1604629407_0_0_0;
 extern "C" void DelegatePInvokeWrapper_UpdatedEventHandler_t3033456180();
 extern const RuntimeType UpdatedEventHandler_t3033456180_0_0_0;
-extern Il2CppInteropData g_Il2CppInteropData[77] = 
+extern "C" void RaycastResult_t21186376_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void RaycastResult_t21186376_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void RaycastResult_t21186376_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const RuntimeType RaycastResult_t21186376_0_0_0;
+extern "C" void ColorTween_t3438117476_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void ColorTween_t3438117476_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void ColorTween_t3438117476_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const RuntimeType ColorTween_t3438117476_0_0_0;
+extern "C" void FloatTween_t2986189219_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void FloatTween_t2986189219_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void FloatTween_t2986189219_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const RuntimeType FloatTween_t2986189219_0_0_0;
+extern "C" void Resources_t2975512894_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void Resources_t2975512894_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void Resources_t2975512894_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const RuntimeType Resources_t2975512894_0_0_0;
+extern "C" void DelegatePInvokeWrapper_OnValidateInput_t1946318473();
+extern const RuntimeType OnValidateInput_t1946318473_0_0_0;
+extern "C" void Navigation_t1571958496_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void Navigation_t1571958496_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void Navigation_t1571958496_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const RuntimeType Navigation_t1571958496_0_0_0;
+extern "C" void SpriteState_t1353336012_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void SpriteState_t1353336012_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void SpriteState_t1353336012_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const RuntimeType SpriteState_t1353336012_0_0_0;
+extern Il2CppInteropData g_Il2CppInteropData[99] = 
 {
 	{ NULL, Context_t2636657155_marshal_pinvoke, Context_t2636657155_marshal_pinvoke_back, Context_t2636657155_marshal_pinvoke_cleanup, NULL, NULL, &Context_t2636657155_0_0_0 } /* Mono.Globalization.Unicode.SimpleCollator/Context */,
 	{ NULL, Escape_t169451053_marshal_pinvoke, Escape_t169451053_marshal_pinvoke_back, Escape_t169451053_marshal_pinvoke_cleanup, NULL, NULL, &Escape_t169451053_0_0_0 } /* Mono.Globalization.Unicode.SimpleCollator/Escape */,
@@ -321,6 +397,7 @@ extern Il2CppInteropData g_Il2CppInteropData[77] =
 	{ NULL, Interval_t2354235237_marshal_pinvoke, Interval_t2354235237_marshal_pinvoke_back, Interval_t2354235237_marshal_pinvoke_cleanup, NULL, NULL, &Interval_t2354235237_0_0_0 } /* System.Text.RegularExpressions.Interval */,
 	{ DelegatePInvokeWrapper_CostDelegate_t1824458113, NULL, NULL, NULL, NULL, NULL, &CostDelegate_t1824458113_0_0_0 } /* System.Text.RegularExpressions.IntervalCollection/CostDelegate */,
 	{ NULL, UriScheme_t1876590943_marshal_pinvoke, UriScheme_t1876590943_marshal_pinvoke_back, UriScheme_t1876590943_marshal_pinvoke_cleanup, NULL, NULL, &UriScheme_t1876590943_0_0_0 } /* System.Uri/UriScheme */,
+	{ DelegatePInvokeWrapper_Action_t3226471752, NULL, NULL, NULL, NULL, NULL, &Action_t3226471752_0_0_0 } /* System.Action */,
 	{ NULL, AnimationCurve_t3306541151_marshal_pinvoke, AnimationCurve_t3306541151_marshal_pinvoke_back, AnimationCurve_t3306541151_marshal_pinvoke_cleanup, NULL, NULL, &AnimationCurve_t3306541151_0_0_0 } /* UnityEngine.AnimationCurve */,
 	{ DelegatePInvokeWrapper_LogCallback_t1867914413, NULL, NULL, NULL, NULL, NULL, &LogCallback_t1867914413_0_0_0 } /* UnityEngine.Application/LogCallback */,
 	{ DelegatePInvokeWrapper_LowMemoryCallback_t642977590, NULL, NULL, NULL, NULL, NULL, &LowMemoryCallback_t642977590_0_0_0 } /* UnityEngine.Application/LowMemoryCallback */,
@@ -337,6 +414,7 @@ extern Il2CppInteropData g_Il2CppInteropData[77] =
 	{ NULL, Gradient_t3600583008_marshal_pinvoke, Gradient_t3600583008_marshal_pinvoke_back, Gradient_t3600583008_marshal_pinvoke_cleanup, NULL, NULL, &Gradient_t3600583008_0_0_0 } /* UnityEngine.Gradient */,
 	{ NULL, Object_t1021602117_marshal_pinvoke, Object_t1021602117_marshal_pinvoke_back, Object_t1021602117_marshal_pinvoke_cleanup, NULL, NULL, &Object_t1021602117_0_0_0 } /* UnityEngine.Object */,
 	{ NULL, PlayableBinding_t2498078091_marshal_pinvoke, PlayableBinding_t2498078091_marshal_pinvoke_back, PlayableBinding_t2498078091_marshal_pinvoke_cleanup, NULL, NULL, &PlayableBinding_t2498078091_0_0_0 } /* UnityEngine.Playables.PlayableBinding */,
+	{ NULL, RectOffset_t3387826427_marshal_pinvoke, RectOffset_t3387826427_marshal_pinvoke_back, RectOffset_t3387826427_marshal_pinvoke_cleanup, NULL, NULL, &RectOffset_t3387826427_0_0_0 } /* UnityEngine.RectOffset */,
 	{ NULL, ResourceRequest_t2560315377_marshal_pinvoke, ResourceRequest_t2560315377_marshal_pinvoke_back, ResourceRequest_t2560315377_marshal_pinvoke_cleanup, NULL, NULL, &ResourceRequest_t2560315377_0_0_0 } /* UnityEngine.ResourceRequest */,
 	{ NULL, ScriptableObject_t1975622470_marshal_pinvoke, ScriptableObject_t1975622470_marshal_pinvoke_back, ScriptableObject_t1975622470_marshal_pinvoke_cleanup, NULL, NULL, &ScriptableObject_t1975622470_0_0_0 } /* UnityEngine.ScriptableObject */,
 	{ NULL, HitInfo_t1761367055_marshal_pinvoke, HitInfo_t1761367055_marshal_pinvoke_back, HitInfo_t1761367055_marshal_pinvoke_cleanup, NULL, NULL, &HitInfo_t1761367055_0_0_0 } /* UnityEngine.SendMouseEvents/HitInfo */,
@@ -348,6 +426,9 @@ extern Il2CppInteropData g_Il2CppInteropData[77] =
 	{ NULL, Collision2D_t1539500754_marshal_pinvoke, Collision2D_t1539500754_marshal_pinvoke_back, Collision2D_t1539500754_marshal_pinvoke_cleanup, NULL, NULL, &Collision2D_t1539500754_0_0_0 } /* UnityEngine.Collision2D */,
 	{ NULL, ContactFilter2D_t1672660996_marshal_pinvoke, ContactFilter2D_t1672660996_marshal_pinvoke_back, ContactFilter2D_t1672660996_marshal_pinvoke_cleanup, NULL, NULL, &ContactFilter2D_t1672660996_0_0_0 } /* UnityEngine.ContactFilter2D */,
 	{ NULL, RaycastHit2D_t4063908774_marshal_pinvoke, RaycastHit2D_t4063908774_marshal_pinvoke_back, RaycastHit2D_t4063908774_marshal_pinvoke_cleanup, NULL, NULL, &RaycastHit2D_t4063908774_0_0_0 } /* UnityEngine.RaycastHit2D */,
+	{ DelegatePInvokeWrapper_FontTextureRebuildCallback_t1272078033, NULL, NULL, NULL, NULL, NULL, &FontTextureRebuildCallback_t1272078033_0_0_0 } /* UnityEngine.Font/FontTextureRebuildCallback */,
+	{ NULL, TextGenerationSettings_t2543476768_marshal_pinvoke, TextGenerationSettings_t2543476768_marshal_pinvoke_back, TextGenerationSettings_t2543476768_marshal_pinvoke_cleanup, NULL, NULL, &TextGenerationSettings_t2543476768_0_0_0 } /* UnityEngine.TextGenerationSettings */,
+	{ NULL, TextGenerator_t647235000_marshal_pinvoke, TextGenerator_t647235000_marshal_pinvoke_back, TextGenerator_t647235000_marshal_pinvoke_cleanup, NULL, NULL, &TextGenerator_t647235000_0_0_0 } /* UnityEngine.TextGenerator */,
 	{ NULL, AnimationEvent_t2428323300_marshal_pinvoke, AnimationEvent_t2428323300_marshal_pinvoke_back, AnimationEvent_t2428323300_marshal_pinvoke_cleanup, NULL, NULL, &AnimationEvent_t2428323300_0_0_0 } /* UnityEngine.AnimationEvent */,
 	{ NULL, AnimatorTransitionInfo_t2410896200_marshal_pinvoke, AnimatorTransitionInfo_t2410896200_marshal_pinvoke_back, AnimatorTransitionInfo_t2410896200_marshal_pinvoke_cleanup, NULL, NULL, &AnimatorTransitionInfo_t2410896200_0_0_0 } /* UnityEngine.AnimatorTransitionInfo */,
 	{ NULL, HumanBone_t1529896151_marshal_pinvoke, HumanBone_t1529896151_marshal_pinvoke_back, HumanBone_t1529896151_marshal_pinvoke_cleanup, NULL, NULL, &HumanBone_t1529896151_0_0_0 } /* UnityEngine.HumanBone */,
@@ -355,9 +436,26 @@ extern Il2CppInteropData g_Il2CppInteropData[77] =
 	{ DelegatePInvokeWrapper_PCMReaderCallback_t3007145346, NULL, NULL, NULL, NULL, NULL, &PCMReaderCallback_t3007145346_0_0_0 } /* UnityEngine.AudioClip/PCMReaderCallback */,
 	{ DelegatePInvokeWrapper_PCMSetPositionCallback_t421863554, NULL, NULL, NULL, NULL, NULL, &PCMSetPositionCallback_t421863554_0_0_0 } /* UnityEngine.AudioClip/PCMSetPositionCallback */,
 	{ DelegatePInvokeWrapper_AudioConfigurationChangeHandler_t3743753033, NULL, NULL, NULL, NULL, NULL, &AudioConfigurationChangeHandler_t3743753033_0_0_0 } /* UnityEngine.AudioSettings/AudioConfigurationChangeHandler */,
+	{ NULL, Event_t3028476042_marshal_pinvoke, Event_t3028476042_marshal_pinvoke_back, Event_t3028476042_marshal_pinvoke_cleanup, NULL, NULL, &Event_t3028476042_0_0_0 } /* UnityEngine.Event */,
+	{ DelegatePInvokeWrapper_WindowFunction_t3486805455, NULL, NULL, NULL, NULL, NULL, &WindowFunction_t3486805455_0_0_0 } /* UnityEngine.GUI/WindowFunction */,
+	{ NULL, GUIContent_t4210063000_marshal_pinvoke, GUIContent_t4210063000_marshal_pinvoke_back, GUIContent_t4210063000_marshal_pinvoke_cleanup, NULL, NULL, &GUIContent_t4210063000_0_0_0 } /* UnityEngine.GUIContent */,
+	{ DelegatePInvokeWrapper_SkinChangedDelegate_t3594822336, NULL, NULL, NULL, NULL, NULL, &SkinChangedDelegate_t3594822336_0_0_0 } /* UnityEngine.GUISkin/SkinChangedDelegate */,
+	{ NULL, GUIStyle_t1799908754_marshal_pinvoke, GUIStyle_t1799908754_marshal_pinvoke_back, GUIStyle_t1799908754_marshal_pinvoke_cleanup, NULL, NULL, &GUIStyle_t1799908754_0_0_0 } /* UnityEngine.GUIStyle */,
+	{ NULL, GUIStyleState_t3801000545_marshal_pinvoke, GUIStyleState_t3801000545_marshal_pinvoke_back, GUIStyleState_t3801000545_marshal_pinvoke_cleanup, NULL, NULL, &GUIStyleState_t3801000545_0_0_0 } /* UnityEngine.GUIStyleState */,
+	{ NULL, Collision_t2876846408_marshal_pinvoke, Collision_t2876846408_marshal_pinvoke_back, Collision_t2876846408_marshal_pinvoke_cleanup, NULL, NULL, &Collision_t2876846408_0_0_0 } /* UnityEngine.Collision */,
+	{ NULL, ControllerColliderHit_t4070855101_marshal_pinvoke, ControllerColliderHit_t4070855101_marshal_pinvoke_back, ControllerColliderHit_t4070855101_marshal_pinvoke_cleanup, NULL, NULL, &ControllerColliderHit_t4070855101_0_0_0 } /* UnityEngine.ControllerColliderHit */,
+	{ NULL, RaycastHit_t87180320_marshal_pinvoke, RaycastHit_t87180320_marshal_pinvoke_back, RaycastHit_t87180320_marshal_pinvoke_cleanup, NULL, NULL, &RaycastHit_t87180320_0_0_0 } /* UnityEngine.RaycastHit */,
+	{ DelegatePInvokeWrapper_WillRenderCanvases_t3522132132, NULL, NULL, NULL, NULL, NULL, &WillRenderCanvases_t3522132132_0_0_0 } /* UnityEngine.Canvas/WillRenderCanvases */,
 	{ NULL, CustomEventData_t1269126727_marshal_pinvoke, CustomEventData_t1269126727_marshal_pinvoke_back, CustomEventData_t1269126727_marshal_pinvoke_cleanup, NULL, NULL, &CustomEventData_t1269126727_0_0_0 } /* UnityEngine.Analytics.CustomEventData */,
 	{ NULL, UnityAnalyticsHandler_t3238795095_marshal_pinvoke, UnityAnalyticsHandler_t3238795095_marshal_pinvoke_back, UnityAnalyticsHandler_t3238795095_marshal_pinvoke_cleanup, NULL, NULL, &UnityAnalyticsHandler_t3238795095_0_0_0 } /* UnityEngine.Analytics.UnityAnalyticsHandler */,
 	{ DelegatePInvokeWrapper_SessionStateChanged_t1604629407, NULL, NULL, NULL, NULL, NULL, &SessionStateChanged_t1604629407_0_0_0 } /* UnityEngine.Analytics.AnalyticsSessionInfo/SessionStateChanged */,
 	{ DelegatePInvokeWrapper_UpdatedEventHandler_t3033456180, NULL, NULL, NULL, NULL, NULL, &UpdatedEventHandler_t3033456180_0_0_0 } /* UnityEngine.RemoteSettings/UpdatedEventHandler */,
+	{ NULL, RaycastResult_t21186376_marshal_pinvoke, RaycastResult_t21186376_marshal_pinvoke_back, RaycastResult_t21186376_marshal_pinvoke_cleanup, NULL, NULL, &RaycastResult_t21186376_0_0_0 } /* UnityEngine.EventSystems.RaycastResult */,
+	{ NULL, ColorTween_t3438117476_marshal_pinvoke, ColorTween_t3438117476_marshal_pinvoke_back, ColorTween_t3438117476_marshal_pinvoke_cleanup, NULL, NULL, &ColorTween_t3438117476_0_0_0 } /* UnityEngine.UI.CoroutineTween.ColorTween */,
+	{ NULL, FloatTween_t2986189219_marshal_pinvoke, FloatTween_t2986189219_marshal_pinvoke_back, FloatTween_t2986189219_marshal_pinvoke_cleanup, NULL, NULL, &FloatTween_t2986189219_0_0_0 } /* UnityEngine.UI.CoroutineTween.FloatTween */,
+	{ NULL, Resources_t2975512894_marshal_pinvoke, Resources_t2975512894_marshal_pinvoke_back, Resources_t2975512894_marshal_pinvoke_cleanup, NULL, NULL, &Resources_t2975512894_0_0_0 } /* UnityEngine.UI.DefaultControls/Resources */,
+	{ DelegatePInvokeWrapper_OnValidateInput_t1946318473, NULL, NULL, NULL, NULL, NULL, &OnValidateInput_t1946318473_0_0_0 } /* UnityEngine.UI.InputField/OnValidateInput */,
+	{ NULL, Navigation_t1571958496_marshal_pinvoke, Navigation_t1571958496_marshal_pinvoke_back, Navigation_t1571958496_marshal_pinvoke_cleanup, NULL, NULL, &Navigation_t1571958496_0_0_0 } /* UnityEngine.UI.Navigation */,
+	{ NULL, SpriteState_t1353336012_marshal_pinvoke, SpriteState_t1353336012_marshal_pinvoke_back, SpriteState_t1353336012_marshal_pinvoke_cleanup, NULL, NULL, &SpriteState_t1353336012_0_0_0 } /* UnityEngine.UI.SpriteState */,
 	NULL,
 };

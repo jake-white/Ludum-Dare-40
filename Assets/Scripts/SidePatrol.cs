@@ -2,30 +2,36 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BasicPatrol : GuardScript {
+public class SidePatrol : GuardScript {
 	private Vector2 moveDirection;
 	private Vector3 turnAmount;
 	private Vector3 targetTurn;
 	private float speed = 0;
 	private bool turning = false;
+	public bool startRight = false;
+	private float movementSpeed = 4.0f;
 
 	public override void customStart() {
 		moveDirection = Vector2.up;
 		turnAmount = new Vector3(0,0,180);
+		if(startRight) {
+			targetTurn =  new Vector3(0,0, 270);
+		}
+		else {
+			targetTurn =  new Vector3(0,0, 90);
+		}
 		
-		speed = 1;
+		speed = movementSpeed;
 	}
 	void OnCollisionEnter2D (Collision2D collision) {
-		if(collision.collider != player.GetComponent<Collider2D>() && !turning) {
+		if(collision.collider != player.GetComponent<Collider2D>() && collision.collider.GetComponent<Safe>() == null && !turning) {
 			turning = true;
 			speed = 0;
-
-			Debug.Log("Hit something not player");
-			if(targetTurn ==  new Vector3(0,0,180)) {
-				targetTurn = new Vector3(0,0,-90);
+			if(targetTurn ==  new Vector3(0,0, 270)) {
+				targetTurn = new Vector3(0,0, 90);
 			}
 			else {
-				targetTurn = new Vector3(0,0,270);
+				targetTurn = new Vector3(0,0, 270);
 			}
 			
 		}
@@ -33,21 +39,21 @@ public class BasicPatrol : GuardScript {
 	}
 
 	void Update () {
-		base.sight();
-		if(!turning)
-		{
-			transform.Translate(moveDirection * speed * Time.deltaTime);
-		}
-		else {
-			Vector3 moreOrLess = turnAmount * Time.deltaTime;
-			transform.Rotate(moreOrLess);
-			if(transform.eulerAngles.z + moreOrLess.z >= targetTurn.z) {
-				Debug.Log(transform.eulerAngles.z + " " + moreOrLess.z + " " + targetTurn.z);
-				transform.Rotate(targetTurn - transform.eulerAngles);
-				speed = 1.0f;
-				Debug.Log("done turning.");
+		if(!state.isCaught()) {
+			base.sight();
+			if(!turning)
+			{
 				transform.Translate(moveDirection * speed * Time.deltaTime);
-				turning = false;
+			}
+			else {
+				Vector3 moreOrLess = turnAmount * Time.deltaTime;
+				transform.Rotate(moreOrLess);
+				if(transform.eulerAngles.z - targetTurn.z <= moreOrLess.z && transform.eulerAngles.z - targetTurn.z >= -moreOrLess.z) {
+					transform.Rotate(targetTurn - transform.eulerAngles);
+					speed = movementSpeed;
+					transform.Translate(moveDirection * speed * Time.deltaTime);
+					turning = false;
+				}
 			}
 		}
 		

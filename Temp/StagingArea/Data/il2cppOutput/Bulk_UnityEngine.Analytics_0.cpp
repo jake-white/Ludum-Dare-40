@@ -101,8 +101,8 @@ struct CharU5BU5D_t1328083999;
 struct ObjectU5BU5D_t3614634134;
 
 
-#ifndef U3CMODULEU3E_T3783534227_H
-#define U3CMODULEU3E_T3783534227_H
+#ifndef U3CMODULEU3E_T3783534232_H
+#define U3CMODULEU3E_T3783534232_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -110,7 +110,7 @@ struct ObjectU5BU5D_t3614634134;
 #endif
 
 // <Module>
-struct  U3CModuleU3E_t3783534227 
+struct  U3CModuleU3E_t3783534232 
 {
 public:
 
@@ -120,7 +120,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CMODULEU3E_T3783534227_H
+#endif // U3CMODULEU3E_T3783534232_H
 #ifndef RUNTIMEOBJECT_H
 #define RUNTIMEOBJECT_H
 #ifdef __clang__

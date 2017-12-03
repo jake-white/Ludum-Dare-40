@@ -51,15 +51,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GameState.cs" />
-     <Compile Include="Assets\Safe.cs" />
+     <Compile Include="Assets\FloorAdvance.cs" />
+     <Compile Include="Assets\MenuScript.cs" />
+     <Compile Include="Assets\RandomTurnPatrol.cs" />
      <Compile Include="Assets\Scripts\CameraScript.cs" />
+     <Compile Include="Assets\Scripts\GameState.cs" />
      <Compile Include="Assets\Scripts\GuardScript.cs" />
      <Compile Include="Assets\Scripts\PlayerScript.cs" />
+     <Compile Include="Assets\Scripts\Safe.cs" />
+     <Compile Include="Assets\Scripts\Score.cs" />
      <Compile Include="Assets\Scripts\SidePatrol.cs" />
+     <Compile Include="Assets\Scripts\SoundScript.cs" />
      <Compile Include="Assets\Scripts\VerticalPatrol.cs" />
      <Compile Include="Assets\Scripts\ViewScript.cs" />
-     <Compile Include="Assets\SidePatrol.cs" />
+     <Compile Include="Assets\StationaryPatrol.cs" />
  <Reference Include="UnityEngine.CoreModule">
  <HintPath>/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
  </Reference>

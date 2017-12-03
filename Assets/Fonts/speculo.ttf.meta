@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 87482463adb5b4dc98a8e7581134afb8
+timeCreated: 1512265628
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Speculum Outline
+  fontNames:
+  - Speculum Outline
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

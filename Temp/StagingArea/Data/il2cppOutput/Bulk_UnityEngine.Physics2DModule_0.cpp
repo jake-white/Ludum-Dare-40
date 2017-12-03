@@ -1608,6 +1608,12 @@ extern "C"  int32_t Physics2D_INTERNAL_CALL_Internal_RaycastNonAlloc_m1368406894
 extern "C"  RaycastHit2DU5BU5D_t4176517891* Physics2D_INTERNAL_CALL_GetRayIntersectionAll_m3838222705 (RuntimeObject * __this /* static, unused */, Ray_t2469606224 * ___ray0, float ___distance1, int32_t ___layerMask2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Generic.List`1<UnityEngine.Rigidbody2D>::.ctor()
 #define List_1__ctor_m1935313869(__this, method) ((  void (*) (List_1_t4166282325 *, const RuntimeMethod*))List_1__ctor_m310736118_gshared)(__this, method)
+// UnityEngine.Vector2 UnityEngine.RaycastHit2D::get_point()
+extern "C"  Vector2_t2243707579  RaycastHit2D_get_point_m2962370910 (RaycastHit2D_t4063908774 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector2 UnityEngine.RaycastHit2D::get_normal()
+extern "C"  Vector2_t2243707579  RaycastHit2D_get_normal_m1680752829 (RaycastHit2D_t4063908774 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.RaycastHit2D::get_distance()
+extern "C"  float RaycastHit2D_get_distance_m1439788004 (RaycastHit2D_t4063908774 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Collider2D UnityEngine.RaycastHit2D::get_collider()
 extern "C"  Collider2D_t646061738 * RaycastHit2D_get_collider_m1095503671 (RaycastHit2D_t4063908774 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody2D::INTERNAL_get_velocity(UnityEngine.Vector2&)
@@ -2631,6 +2637,71 @@ extern "C" void RaycastHit2D_t4063908774_marshal_com_back(const RaycastHit2D_t40
 // Conversion method for clean up from marshalling of: UnityEngine.RaycastHit2D
 extern "C" void RaycastHit2D_t4063908774_marshal_com_cleanup(RaycastHit2D_t4063908774_marshaled_com& marshaled)
 {
+}
+// UnityEngine.Vector2 UnityEngine.RaycastHit2D::get_point()
+extern "C"  Vector2_t2243707579  RaycastHit2D_get_point_m2962370910 (RaycastHit2D_t4063908774 * __this, const RuntimeMethod* method)
+{
+	Vector2_t2243707579  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Vector2_t2243707579  L_0 = __this->get_m_Point_1();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		Vector2_t2243707579  L_1 = V_0;
+		return L_1;
+	}
+}
+extern "C"  Vector2_t2243707579  RaycastHit2D_get_point_m2962370910_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	RaycastHit2D_t4063908774 * _thisAdjusted = reinterpret_cast<RaycastHit2D_t4063908774 *>(__this + 1);
+	return RaycastHit2D_get_point_m2962370910(_thisAdjusted, method);
+}
+// UnityEngine.Vector2 UnityEngine.RaycastHit2D::get_normal()
+extern "C"  Vector2_t2243707579  RaycastHit2D_get_normal_m1680752829 (RaycastHit2D_t4063908774 * __this, const RuntimeMethod* method)
+{
+	Vector2_t2243707579  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Vector2_t2243707579  L_0 = __this->get_m_Normal_2();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		Vector2_t2243707579  L_1 = V_0;
+		return L_1;
+	}
+}
+extern "C"  Vector2_t2243707579  RaycastHit2D_get_normal_m1680752829_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	RaycastHit2D_t4063908774 * _thisAdjusted = reinterpret_cast<RaycastHit2D_t4063908774 *>(__this + 1);
+	return RaycastHit2D_get_normal_m1680752829(_thisAdjusted, method);
+}
+// System.Single UnityEngine.RaycastHit2D::get_distance()
+extern "C"  float RaycastHit2D_get_distance_m1439788004 (RaycastHit2D_t4063908774 * __this, const RuntimeMethod* method)
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->get_m_Distance_3();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+extern "C"  float RaycastHit2D_get_distance_m1439788004_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	RaycastHit2D_t4063908774 * _thisAdjusted = reinterpret_cast<RaycastHit2D_t4063908774 *>(__this + 1);
+	return RaycastHit2D_get_distance_m1439788004(_thisAdjusted, method);
 }
 // UnityEngine.Collider2D UnityEngine.RaycastHit2D::get_collider()
 extern "C"  Collider2D_t646061738 * RaycastHit2D_get_collider_m1095503671 (RaycastHit2D_t4063908774 * __this, const RuntimeMethod* method)

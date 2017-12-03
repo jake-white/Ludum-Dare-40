@@ -71,8 +71,8 @@ extern const uint32_t AnimatorControllerPlayable__cctor_m2703466520_MetadataUsag
 
 
 
-#ifndef U3CMODULEU3E_T3783534220_H
-#define U3CMODULEU3E_T3783534220_H
+#ifndef U3CMODULEU3E_T3783534221_H
+#define U3CMODULEU3E_T3783534221_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -80,7 +80,7 @@ extern const uint32_t AnimatorControllerPlayable__cctor_m2703466520_MetadataUsag
 #endif
 
 // <Module>
-struct  U3CModuleU3E_t3783534220 
+struct  U3CModuleU3E_t3783534221 
 {
 public:
 
@@ -90,7 +90,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CMODULEU3E_T3783534220_H
+#endif // U3CMODULEU3E_T3783534221_H
 #ifndef RUNTIMEOBJECT_H
 #define RUNTIMEOBJECT_H
 #ifdef __clang__
@@ -2153,6 +2153,10 @@ extern "C"  void InvalidOperationException__ctor_m2801133788 (InvalidOperationEx
 #define PlayableHandle_IsPlayableOfType_TisAnimatorControllerPlayable_t1744083903_m1628500864(__this, method) ((  bool (*) (PlayableHandle_t213697122 *, const RuntimeMethod*))PlayableHandle_IsPlayableOfType_TisAnimatorControllerPlayable_t1744083903_m1628500864_gshared)(__this, method)
 // System.Boolean UnityEngine.Animations.AnimatorControllerPlayable::Equals(UnityEngine.Animations.AnimatorControllerPlayable)
 extern "C"  bool AnimatorControllerPlayable_Equals_m2805860543 (AnimatorControllerPlayable_t1744083903 * __this, AnimatorControllerPlayable_t1744083903  ___other0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::SetTriggerString(System.String)
+extern "C"  void Animator_SetTriggerString_m598103909 (Animator_t69676727 * __this, String_t* ___name0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::ResetTriggerString(System.String)
+extern "C"  void Animator_ResetTriggerString_m946167554 (Animator_t69676727 * __this, String_t* ___name0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Animator::Play(System.String,System.Int32,System.Single)
 extern "C"  void Animator_Play_m1706432228 (Animator_t69676727 * __this, String_t* ___stateName0, int32_t ___layer1, float ___normalizedTime2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Animator::StringToHash(System.String)
@@ -2677,6 +2681,24 @@ extern "C"  void AnimatorControllerPlayable__cctor_m2703466520 (RuntimeObject * 
 		return;
 	}
 }
+// System.Void UnityEngine.Animator::SetTrigger(System.String)
+extern "C"  void Animator_SetTrigger_m2003713590 (Animator_t69676727 * __this, String_t* ___name0, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = ___name0;
+		Animator_SetTriggerString_m598103909(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.Animator::ResetTrigger(System.String)
+extern "C"  void Animator_ResetTrigger_m2176932023 (Animator_t69676727 * __this, String_t* ___name0, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = ___name0;
+		Animator_ResetTriggerString_m946167554(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
 // UnityEngine.AnimatorStateInfo UnityEngine.Animator::GetCurrentAnimatorStateInfo(System.Int32)
 extern "C"  AnimatorStateInfo_t2577870592  Animator_GetCurrentAnimatorStateInfo_m2354582050 (Animator_t69676727 * __this, int32_t ___layerIndex0, const RuntimeMethod* method)
 {
@@ -2723,6 +2745,16 @@ extern "C"  void Animator_Play_m1244626253 (Animator_t69676727 * __this, int32_t
 	_il2cpp_icall_func = (Animator_Play_m1244626253_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animator::Play(System.Int32,System.Int32,System.Single)");
 	_il2cpp_icall_func(__this, ___stateNameHash0, ___layer1, ___normalizedTime2);
 }
+// System.Boolean UnityEngine.Animator::get_hasBoundPlayables()
+extern "C"  bool Animator_get_hasBoundPlayables_m2257984562 (Animator_t69676727 * __this, const RuntimeMethod* method)
+{
+	typedef bool (*Animator_get_hasBoundPlayables_m2257984562_ftn) (Animator_t69676727 *);
+	static Animator_get_hasBoundPlayables_m2257984562_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Animator_get_hasBoundPlayables_m2257984562_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animator::get_hasBoundPlayables()");
+	bool retVal = _il2cpp_icall_func(__this);
+	return retVal;
+}
 // System.Int32 UnityEngine.Animator::StringToHash(System.String)
 extern "C"  int32_t Animator_StringToHash_m1845745834 (RuntimeObject * __this /* static, unused */, String_t* ___name0, const RuntimeMethod* method)
 {
@@ -2732,6 +2764,24 @@ extern "C"  int32_t Animator_StringToHash_m1845745834 (RuntimeObject * __this /*
 	_il2cpp_icall_func = (Animator_StringToHash_m1845745834_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animator::StringToHash(System.String)");
 	int32_t retVal = _il2cpp_icall_func(___name0);
 	return retVal;
+}
+// System.Void UnityEngine.Animator::SetTriggerString(System.String)
+extern "C"  void Animator_SetTriggerString_m598103909 (Animator_t69676727 * __this, String_t* ___name0, const RuntimeMethod* method)
+{
+	typedef void (*Animator_SetTriggerString_m598103909_ftn) (Animator_t69676727 *, String_t*);
+	static Animator_SetTriggerString_m598103909_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Animator_SetTriggerString_m598103909_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animator::SetTriggerString(System.String)");
+	_il2cpp_icall_func(__this, ___name0);
+}
+// System.Void UnityEngine.Animator::ResetTriggerString(System.String)
+extern "C"  void Animator_ResetTriggerString_m946167554 (Animator_t69676727 * __this, String_t* ___name0, const RuntimeMethod* method)
+{
+	typedef void (*Animator_ResetTriggerString_m946167554_ftn) (Animator_t69676727 *, String_t*);
+	static Animator_ResetTriggerString_m946167554_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Animator_ResetTriggerString_m946167554_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animator::ResetTriggerString(System.String)");
+	_il2cpp_icall_func(__this, ___name0);
 }
 // System.Boolean UnityEngine.AnimatorStateInfo::IsName(System.String)
 extern "C"  bool AnimatorStateInfo_IsName_m1591389294 (AnimatorStateInfo_t2577870592 * __this, String_t* ___name0, const RuntimeMethod* method)

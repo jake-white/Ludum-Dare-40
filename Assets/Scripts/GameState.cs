@@ -1,16 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class GameState : MonoBehaviour {
 
 	private bool caught = false, frozen = false;
 	public GameObject mainCam;
 	public GameObject player;
-	public Text scoreText;
-
-	public Safe[] safes;
+	public Score scoreText;
 
 	// Use this for initialization
 	void Start () {
@@ -31,6 +28,7 @@ public class GameState : MonoBehaviour {
 
 	public void catchPlayer() {
 		caught = true;
+		scoreText.clear();
 		mainCam.GetComponent<Animator>().Play("Zoom In");
 	}
 
@@ -47,18 +45,23 @@ public class GameState : MonoBehaviour {
 	}
 
 	public void resetGameState() {
+		GameObject[] safes = GameObject.FindGameObjectsWithTag("Safe");
 		for(int i = 0; i < safes.Length; ++i) {
-			safes[i].reset();
+			safes[i].GetComponent<Safe>().reset();
 		}
 		player.GetComponent<PlayerScript>().respawn();
 		caught = false;
 	}
 
-	public void score(int coins) {
-		scoreText.GetComponent<Score>().collect(coins);
+	public void score(int coins) {		
+		scoreText.collect(coins);
+	}
+
+	public void saveScore() {
+		scoreText.saveCoins();
 	}
 
 	public int getScore() {
-		return scoreText.GetComponent<Score>().getValue();
+		return scoreText.getValue();
 	}
 }

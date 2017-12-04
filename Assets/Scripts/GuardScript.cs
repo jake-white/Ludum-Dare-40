@@ -14,11 +14,6 @@ public class GuardScript : MonoBehaviour {
 		customStart();
 		player = GameObject.Find("Player");
 		state = GameObject.Find("GameState").GetComponent<GameState>();
-		Vector3 viewVector = new Vector3(transform.position.x, transform.position.y, transform.position.z+1);
-		GameObject myView = Instantiate(viewCircle, viewVector, Quaternion.identity);
-		viewCircle.transform.localScale = new Vector2(viewRadius, viewRadius);
-		myView.transform.SetParent(gameObject.transform, false);
-		myView.transform.localPosition = new Vector3(0,0,0);
 	}
 
 	public virtual void customStart () {}

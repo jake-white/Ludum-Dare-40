@@ -29,12 +29,23 @@ public class PlayerScript : MonoBehaviour
 	}
     void Update()
     {
+		
         var x = Input.GetAxisRaw("Horizontal") * Time.deltaTime * 500.0f;
         var y = Input.GetAxisRaw("Vertical") * Time.deltaTime * 500.0f;
+		var crouch = Input.GetAxisRaw("Crouch");
+		float speed = 1;
+		float crouchMod;
+		if(crouch == 1) {
+			crouchMod = 0.7f;
+			speed = 0.15f;
+		}
+		else { 
+			crouchMod = 1;
+		}
 
         Vector3 moveDirection = new Vector3(x, y, 0);
 		if(!state.isCaught() && !state.isFrozen())  {
-			body.AddForce(moveDirection);
+			body.AddForce(moveDirection * speed);
 		}
 		mySound.transform.localScale = new Vector2(modRadius, modRadius);
 		if(state.isCaught() || state.isFrozen()) {
@@ -54,7 +65,7 @@ public class PlayerScript : MonoBehaviour
 				audio.Play();
 			}
 			soundRadius = state.getScore()/2.5f;
-			modRadius = soundRadius * Mathf.Abs(Mathf.Sin(Time.time * 5));
+			modRadius = soundRadius * Mathf.Abs(Mathf.Sin(Time.time * 5)) * crouchMod;
 			if(modRadius < soundRadius / 2) {
 				modRadius = soundRadius / 2;
 			}

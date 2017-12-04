@@ -24,8 +24,10 @@ public class GuardScript : MonoBehaviour {
 		RaycastHit2D outOfSight = Physics2D.Linecast(transform.position, player.transform.position, layerMask);
 		bool playerInSight = outOfSight.collider == player.GetComponent<Collider2D>();
 		if((target && playerInSight) || soundTarget) {
-			GetComponent<AudioSource>().Play();
 			state.catchPlayer();
+			if(state.isCaught()) {
+				GetComponent<AudioSource>().Play();
+			}
 			loseTarget();
 			loseSoundTarget();
 		} 

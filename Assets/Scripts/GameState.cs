@@ -8,6 +8,7 @@ public class GameState : MonoBehaviour {
 	public GameObject mainCam;
 	public GameObject player;
 	public Score scoreText;
+	public bool inCutscene = false;
 
 	// Use this for initialization
 	void Start () {
@@ -27,9 +28,11 @@ public class GameState : MonoBehaviour {
 	}
 
 	public void catchPlayer() {
-		caught = true;
-		scoreText.clear();
-		mainCam.GetComponent<Animator>().Play("Zoom In");
+		Debug.Log(frozen);
+		if(!frozen) {
+			caught = true;
+			mainCam.GetComponent<Animator>().Play("Zoom In");
+		}
 	}
 
 	public bool isFrozen() {
@@ -51,6 +54,7 @@ public class GameState : MonoBehaviour {
 		}
 		player.GetComponent<PlayerScript>().respawn();
 		caught = false;
+		scoreText.clear();
 	}
 
 	public void score(int coins) {		

@@ -53,12 +53,13 @@ public class PlayerScript : MonoBehaviour
 				audio.clip = jingles[randomInt];
 				audio.Play();
 			}
-			soundRadius = state.getScore();
+			soundRadius = state.getScore()/2.5f;
 			modRadius = soundRadius * Mathf.Abs(Mathf.Sin(Time.time * 5));
 			if(modRadius < soundRadius / 2) {
 				modRadius = soundRadius / 2;
 			}
 		}
+		transform.Rotate(0,0,(body.velocity.x + body.velocity.y)*2.0f);
 	}
 
 

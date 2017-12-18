@@ -28,7 +28,6 @@ public class GameState : MonoBehaviour {
 	}
 
 	public void catchPlayer() {
-		Debug.Log(frozen);
 		if(!frozen) {
 			caught = true;
 			mainCam.GetComponent<Animator>().Play("Zoom In");

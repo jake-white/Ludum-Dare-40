@@ -5,7 +5,6 @@ using UnityEngine;
 public class GuardScript : MonoBehaviour {
 	protected GameObject player;
 	public GameState state;
-	public GameObject viewCircle;
 	private int viewRadius = 30;
 	private bool sighted = true;
 	private bool target = false, soundTarget = false;
@@ -20,19 +19,13 @@ public class GuardScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	public void sight () {
-		int layerMask = 1 << 0; //only targeting layer 0
-		RaycastHit2D outOfSight = Physics2D.Linecast(transform.position, player.transform.position, layerMask);
-		bool playerInSight = outOfSight.collider == player.GetComponent<Collider2D>();
-		if((target && playerInSight) || soundTarget) {
+		if(target || soundTarget) {
 			state.catchPlayer();
 			if(state.isCaught()) {
 				GetComponent<AudioSource>().Play();
 			}
 			loseTarget();
 			loseSoundTarget();
-		} 
-		else {
-
 		}
 	}
 
